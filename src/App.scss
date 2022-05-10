@@ -1,3 +1,21 @@
 .App {
   text-align: center;
+
+  .formdata {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    background-color: beige;
+  }
+
+  .formField {
+    display: flex;
+    flex-direction: column;
+
+    .row {
+      margin-bottom: 20px;
+    }
+  }
 }
